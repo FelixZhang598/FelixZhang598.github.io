@@ -5,13 +5,13 @@ Allow: /categories/
 Allow: /tags/
 Allow: /page/
 
-
 Disallow: /about/
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /lib/
 Disallow: /uploads/
+
 
 
 Sitemap: https://blog.zlf.me/sitemap.xml
