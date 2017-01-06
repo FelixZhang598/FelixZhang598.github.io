@@ -33,9 +33,9 @@
       <category term="Kubernetes" scheme="https://blog.zlf.me/categories/Kubernetes/"/>
     
     
-      <category term="Kubernetes" scheme="https://blog.zlf.me/tags/Kubernetes/"/>
-    
       <category term="Docker" scheme="https://blog.zlf.me/tags/Docker/"/>
+    
+      <category term="Kubernetes" scheme="https://blog.zlf.me/tags/Kubernetes/"/>
     
   </entry>
   
@@ -57,11 +57,11 @@
       <category term="Kubernetes" scheme="https://blog.zlf.me/categories/Kubernetes/"/>
     
     
+      <category term="Docker" scheme="https://blog.zlf.me/tags/Docker/"/>
+    
       <category term="Kubernetes" scheme="https://blog.zlf.me/tags/Kubernetes/"/>
     
       <category term="Kubeadm" scheme="https://blog.zlf.me/tags/Kubeadm/"/>
-    
-      <category term="Docker" scheme="https://blog.zlf.me/tags/Docker/"/>
     
   </entry>
   
@@ -83,11 +83,11 @@
       <category term="路由器" scheme="https://blog.zlf.me/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
     
+      <category term="OpenWrt" scheme="https://blog.zlf.me/tags/OpenWrt/"/>
+    
       <category term="Nas" scheme="https://blog.zlf.me/tags/Nas/"/>
     
       <category term="Aria2" scheme="https://blog.zlf.me/tags/Aria2/"/>
-    
-      <category term="OpenWrt" scheme="https://blog.zlf.me/tags/OpenWrt/"/>
     
   </entry>
   
