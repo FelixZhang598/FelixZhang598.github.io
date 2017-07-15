@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.zlf.me/"/>
-  <updated>2017-07-15T07:53:27.000Z</updated>
+  <updated>2017-07-15T07:58:13.000Z</updated>
   <id>https://blog.zlf.me/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://blog.zlf.me/Go%E5%AE%9E%E7%8E%B0BitTorrent-DHT%E7%88%AC%E8%99%AB.html"/>
     <id>https://blog.zlf.me/Go实现BitTorrent-DHT爬虫.html</id>
     <published>2017-07-15T06:58:23.000Z</published>
-    <updated>2017-07-15T07:53:27.000Z</updated>
+    <updated>2017-07-15T07:58:13.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="DHT介绍"><a href="#DHT介绍" class="headerlink" title="DHT介绍"></a>DHT介绍</h2><p>DHT（Distributed Hash Table，分布式哈希表），它是在 UDP 通信协议的基础上使用 Kademila（俗称 Kad 算法）算法实现。DHT由节点组成，它存储peer的位置，是一种分布式存储方法。在不需要服务器的情况下，每个客户端负责一个小范围的路由，并负责存储一小部分数据，从而实现整个DHT网络的寻址和存储，其中BT客户端包含一个DHT节点，用来联系DHT中其他节点，从而得到peer的位置，进而通过BitTorrent协议下载。</p><a id="more"></a><h2 id="爬虫原理"><a href="#爬虫原理" class="headerlink" title="爬虫原理"></a>爬虫原理</h2><ol><li>向网络节点发送find_node请求，将爬虫加入其它节点的路由表中。</li><li>收集其它节点发送过来的get_peer、announce_peer请求，请求数据内会包含info_hash。</li></ol><h2 id="Go实现"><a href="#Go实现" class="headerlink" title="Go实现"></a>Go实现</h2><p>详见Github：(<a href="https://github.com/lingfei-zhang/dht-crawler" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/lingfei-zhang/dht-crawler</a>)</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="DHT介绍"><a href="#DHT介绍" class="headerlink" title="DHT介绍"></a>DHT介绍</h2><p>DHT（Distributed Hash Table，分布式哈希表），它是在 UDP 通信协议的基础上使用 Kademila（俗称 Kad 算法）算法实现。DHT由节点组成，它存储peer的位置，是一种分布式存储方法。在不需要服务器的情况下，每个客户端负责一个小范围的路由，并负责存储一小部分数据，从而实现整个DHT网络的寻址和存储，其中BT客户端包含一个DHT节点，用来联系DHT中其他节点，从而得到peer的位置，进而通过BitTorrent协议下载。</p><a id="more"></a><h2 id="爬虫原理"><a href="#爬虫原理" class="headerlink" title="爬虫原理"></a>爬虫原理</h2><ol><li>向网络节点发送find_node请求，将爬虫加入其它节点的路由表中。</li><li>收集其它节点发送过来的get_peers、announce_peer请求，请求数据内会包含info_hash。</li></ol><h2 id="Go实现"><a href="#Go实现" class="headerlink" title="Go实现"></a>Go实现</h2><p>详见Github：(<a href="https://github.com/lingfei-zhang/dht-crawler" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/lingfei-zhang/dht-crawler</a>)</p>]]></content>
     
     <summary type="html">
     
